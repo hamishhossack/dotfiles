@@ -1,6 +1,5 @@
-# Hamish's dotfiles based on Holman does dotfiles
-
-## dotfiles
+# Hamish's dotfiles
+Based on Holman does dotfiles [ https://github.com/holman/dotfiles ]
 
 ## install
 
