@@ -3,8 +3,9 @@
     showIndentGuide: true
     fontFamily: "Menlo"
     invisibles: {}
-    fontSize: 15
     softWrapAtPreferredLineLength: true
+    fontSize: 12
+    tabLength: 4
   core:
     ignoredNames: [
       ".bundle"
@@ -15,8 +16,8 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "atom-dark-syntax"
     ]
     hideGitIgnoredFiles: true
     disabledPackages: [
@@ -34,3 +35,8 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
+  "atom-beautify":
+    _analyticsUserId: "a6282289-8b45-486f-b1cc-0aa913c6ff7c"
+    analytics: false
+    js_indent_size: 4
+  "php-cs-fixer": {}
