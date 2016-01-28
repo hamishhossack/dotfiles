@@ -30,6 +30,8 @@
       "text.plain"
       "source.gfm"
       "text.git-commit"
+      "text.html.basic"
+      "text.html.php"
     ]
   welcome:
     showOnStartup: false
@@ -38,5 +40,19 @@
   "atom-beautify":
     _analyticsUserId: "a6282289-8b45-486f-b1cc-0aa913c6ff7c"
     analytics: false
-    js_indent_size: 4
-  "php-cs-fixer": {}
+    css_convert_quotes: "double"
+    html_indent_inner_html: true
+    html_end_with_newline: true
+    js_end_with_comma: true
+    js_end_with_newline: true
+    js_eval_code: true
+    js_indent_with_tabs: true
+    js_jslint_happy: true
+    language_json_beautify_on_save: true
+    language_js_beautify_on_save: true
+    language_html_beautify_on_save: true
+    language_less_beautify_on_save: true
+    language_markdown_beautify_on_save: true
+    language_php_beautify_on_save: true
+  "php-cs-fixer":
+    executeOnSave: true
