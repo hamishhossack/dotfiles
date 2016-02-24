@@ -1,1 +1,1 @@
-easy_install SpoofMAC
+sudo  itermeasy_install SpoofMAC
