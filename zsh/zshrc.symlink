@@ -45,3 +45,8 @@ zle-line-init() {
     zle autosuggest-start
 }
 zle -N zle-line-init
+
+# path to the DCOS CLI binary
+if [[ "$PATH" != *"/Users/hamishhossack/dcos/dcos/dcos/bin"* ]];
+  then export PATH=$PATH:/Users/hamishhossack/dcos/dcos/dcos/bin;
+fi
