@@ -50,3 +50,9 @@ zle -N zle-line-init
 if [[ "$PATH" != *"/Users/hamishhossack/dcos/dcos/dcos/bin"* ]];
   then export PATH=$PATH:/Users/hamishhossack/dcos/dcos/dcos/bin;
 fi
+
+###-tns-completion-start-###
+if [ -f /Users/hamishhossack/.tnsrc ]; then 
+    source /Users/hamishhossack/.tnsrc 
+fi
+###-tns-completion-end-###
