@@ -31,6 +31,7 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
@@ -44,6 +45,8 @@
     tabLength: 4
   "git-diff":
     showIconsInEditorGutter: true
+  "linter-python":
+    executablePath: "/usr/local/bin/pylama"
   "php-cs-fixer":
     executeOnSave: true
   "release-notes":

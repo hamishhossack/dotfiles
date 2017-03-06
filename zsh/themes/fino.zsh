@@ -24,7 +24,7 @@ local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
 local prompt_char='$(prompt_char)'
 
-PROMPT="%{$fg[yellow]%}╭─%n%{$reset_color%} %{$fg[white]%}at%{$reset_color%} %{$fg[white]%}$(box_name)%{$reset_color%} %{$fg[cyan]%}in%{$reset_color%} %{$terminfo[bold]$fg[white]%}${current_dir} %{$fg[magenta]%}${git_info}
+PROMPT="%{$fg[yellow]%}╭─%n%{$reset_color%} %{$terminfo[bold]$fg[white]%}${current_dir} %{$fg[magenta]%}${git_info}
 ╰─${prompt_char}%{$reset_color%} "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[239]%}on%{$reset_color%} %{$fg[255]%}"
