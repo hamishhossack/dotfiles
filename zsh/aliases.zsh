@@ -2,6 +2,7 @@ alias compile-ssh-config='cat ~/.ssh/config_local ~/.ssh/*/config_* > ~/.ssh/con
 alias ssh='compile-ssh-config && ssh'
 alias pubkey='cat ~/.ssh/id_rsa.pub | pbcopy'
 alias ip='curl ipecho.net/plain ; echo'
+alias internal-ip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
 alias reload!='. ~/.zshrc'
 alias server='python -m SimpleHTTPServer 8000'
 alias nodebabel='node -r "babel-register"'

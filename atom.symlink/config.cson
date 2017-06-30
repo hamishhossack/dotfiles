@@ -1,21 +1,44 @@
 "*":
+  "advanced-open-file":
+    createDirectories: true
   "atom-beautify":
-    _analyticsUserId: "a6282289-8b45-486f-b1cc-0aa913c6ff7c"
-    analytics: false
-    css_convert_quotes: "double"
-    html_end_with_newline: true
-    html_indent_inner_html: true
-    js_end_with_comma: true
-    js_end_with_newline: true
-    js_eval_code: true
-    js_indent_with_tabs: true
-    js_jslint_happy: true
-    language_html_beautify_on_save: true
-    language_js_beautify_on_save: true
-    language_json_beautify_on_save: true
-    language_less_beautify_on_save: true
-    language_markdown_beautify_on_save: true
-    language_php_beautify_on_save: true
+    css:
+      convert_quotes: "double"
+    general:
+      _analyticsUserId: "a6282289-8b45-486f-b1cc-0aa913c6ff7c"
+      analytics: false
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_inner_html: true
+    js:
+      beautify_on_save: true
+      end_with_comma: true
+      end_with_newline: true
+      eval_code: true
+      indent_size: 2
+      indent_with_tabs: true
+      jslint_happy: true
+      keep_array_indentation: true
+    json:
+      beautify_on_save: true
+      indent_size: 2
+      keep_array_indentation: true
+    less:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    php:
+      beautify_on_save: true
+    typescript: {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#93d192"
+      accentColor: "#e497e5"
+      genAccent: true
+      paintCursor: true
+    ui:
+      panelContrast: true
   core:
     disabledPackages: [
       "background-tips"
@@ -33,7 +56,7 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "atom-dark-ui"
+      "atom-material-ui"
       "atom-dark-syntax"
     ]
   editor:
@@ -42,11 +65,17 @@
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-    tabLength: 4
   "git-diff":
     showIconsInEditorGutter: true
+  "linter-jshint":
+    executablePath: "/usr/local/lib/node_modules/jshint/bin/jshint"
+    lintInlineJavaScript: true
   "linter-python":
     executablePath: "/usr/local/bin/pylama"
+  "linter-tslint":
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 81
   "php-cs-fixer":
     executeOnSave: true
   "release-notes":
