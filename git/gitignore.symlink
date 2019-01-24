@@ -3,3 +3,5 @@
 *~
 *.swp
 .idea
+.vscode
+.history

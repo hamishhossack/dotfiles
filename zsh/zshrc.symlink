@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/code
 
 # Android SDK
 export ANDROID_HOME=/usr/local/opt/android-sdk
@@ -67,3 +67,7 @@ if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then source '/Applicati
 if [ -f '/Applications/google-cloud-sdk/completion.zsh.inc' ]; then source '/Applications/google-cloud-sdk/completion.zsh.inc'; fi
 
 export PATH="$PATH:`yarn global bin`"
+
+# awsconsole
+source /Users/hamish.hossack/infastructure/sf-ops-tools/awsconsole/awsconsole-completion.sh
+alias awsconsole="/Users/hamish.hossack/infastructure/sf-ops-tools/awsconsole/awsconsole"

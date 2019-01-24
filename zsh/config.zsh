@@ -5,7 +5,7 @@ else
 fi
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
-export CLICOLOR=true
+export CLICOLOR=1
 
 fpath=($ZSH/functions $fpath)
 
