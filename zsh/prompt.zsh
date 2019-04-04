@@ -28,9 +28,9 @@ git_dirty() {
 }
 
 git_prompt_info () {
- ref=$($git symbolic-ref HEAD 2>/dev/null) || return
-# echo "(%{\e[0;33m%}${ref#refs/heads/}%{\e[0m%})"
- echo "${ref#refs/heads/}"
+  ref=$($git symbolic-ref HEAD 2>/dev/null) || return
+  # echo "(%{\e[0;33m%}${ref#refs/heads/}%{\e[0m%})"
+  echo "${ref#refs/heads/}"
 }
 
 # This assumes that you always have an origin named `origin`, and that you only
@@ -66,7 +66,11 @@ battery_status() {
   fi
 }
 
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
+indicator() {
+  echo "%{$fg_bold[yellow]%}>%{$reset_color%}"
+}
+
+export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n$(indicator) '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
