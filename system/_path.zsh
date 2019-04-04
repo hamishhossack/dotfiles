@@ -8,6 +8,7 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/hamish.hossack/infastructure/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/hamish.hossack/infastructure/google-cloud-sdk/path.zsh.inc'; fi
 

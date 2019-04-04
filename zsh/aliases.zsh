@@ -11,3 +11,4 @@ alias community='gcloud container clusters get-credentials cluster-1 --zone euro
 alias community-uat='gcloud container clusters get-credentials cluster-uat --zone europe-west1-b --project essensys-community && kubectl proxy'
 alias uuidgen="uuidgen | tr '[:upper:]' '[:lower:]'"
 alias python='python3'
+alias pip='pip3.7'
