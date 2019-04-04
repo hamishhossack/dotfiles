@@ -1,0 +1,75 @@
+{
+  // Editor
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "window.zoomLevel": 0,
+  // Terminal
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  // Workbench
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "sideBarSectionHeader.foreground": "#76559c"
+  },
+  "workbench.statusBar.feedback.visible": false,
+  // Misc
+  // Controls if file decorations should use badges.
+  "explorer.decorations.badges": false,
+  "search.exclude": {
+    "**/.history": true,
+    "**/bower_components": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/workspace.xml": true
+  },
+  // Addons
+  "material-icon-theme.hidesExplorerArrows": true,
+  "explorer.confirmDragAndDrop": false,
+  // Prettier
+  "prettier.stylelintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  // Beautify
+  "beautify.config": {
+    "object-property-newline": "error"
+  },
+  // Git
+  "git.confirmSync": false,
+  "workbench.iconTheme": "material-icon-theme",
+  // TSLint
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.language": "en,en-GB",
+  "prettier.tslintIntegration": true,
+  "explorer.confirmDelete": false,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.packageManager": "yarn",
+  "cSpell.userWords": ["mobx", "polyfills", "truthy"],
+  "tslint.exclude": ".js",
+  "files.exclude": {
+    "**/.history": true
+  },
+  "files.watcherExclude": {
+    "**/.history": true
+  },
+  "jest.debugMode": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  // Indent Rainbow
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.15)",
+    "rgba(16,16,16,0.2)",
+    "rgba(16,16,16,0.25)",
+    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.35)",
+    "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.45)",
+    "rgba(16,16,16,0.5)",
+    "rgba(16,16,16,1.55)"
+  ]
+}
