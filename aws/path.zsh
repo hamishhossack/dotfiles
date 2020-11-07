@@ -1,1 +1,1 @@
-export PATH=~/Library/Python/3.7/bin:$PATH:/usr/local/bin/
+export PATH=~/Library/Python/3.8/bin:$PATH:/usr/local/bin/

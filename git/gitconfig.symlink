@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/hamish.hossack/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
